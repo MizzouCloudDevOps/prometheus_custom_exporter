@@ -9,6 +9,8 @@ to visualize.
 
 ### Usage:
 
-- pip3 install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
 
-- python3 rand_num.py
+python3 rand_num.py
+```
