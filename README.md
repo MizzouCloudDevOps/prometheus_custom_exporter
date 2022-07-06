@@ -7,7 +7,8 @@ Prometheus to consume and Grafana to visualize.
 
 - #2: log metric extractor: extract Http requests from Apache log file on any web server,
 exports two Counter metrics, one for total number of http requests, and the other one 
-for the total bytes for all the http requests. 
+for the total bytes for all the http requests. Data are published on port 9002 for 
+Prometheus to consume and Grafana to visualize.
 
 ## Usage
 
