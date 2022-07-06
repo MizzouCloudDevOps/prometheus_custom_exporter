@@ -5,7 +5,7 @@ from time import sleep
 from prometheus_client import start_http_server, Counter
 
 def main():
-    start_http_server(8081)
+    start_http_server(9002)
     gather_metrics()
 
 def gather_metrics():
